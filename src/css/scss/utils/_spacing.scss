@@ -1,0 +1,28 @@
+.m {
+	&t-1 {
+		margin-top: 0.625rem !important;
+	}
+
+	&t-2 {
+		margin-top: 1.875rem !important;
+	}
+}
+
+.p {
+	&b-1 {
+		padding-bottom: 0.625rem;
+	}
+
+	&x-1 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media( min-width: 800px ) {
+	.m {
+		&t-md-0 {
+			margin-top: 0 !important;
+		}
+	}
+}

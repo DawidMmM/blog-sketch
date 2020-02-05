@@ -1,0 +1,16 @@
+.footer {
+	background-color: $black;
+
+	&__text {
+		color: $white;
+		font-size: $text-xs;
+	}	
+}
+
+@media( min-width: 950px ) {
+	.footer {
+		height: 90px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}

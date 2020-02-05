@@ -1,0 +1,28 @@
+.b-img {
+	display: block;
+	background-repeat: no-repeat;
+
+	&_logo {
+		background-image: url('../img/logo/logo.png');
+	}
+
+	&_facebook {
+		background-image: url('../img/icons/facebook.png');
+	}
+
+	&_twitter {
+		background-image: url('../img/icons/twitter.png');
+	}
+
+	&_google {
+		background-image: url('../img/icons/google.png');
+	}
+
+	&_pinterest {
+		background-image: url('../img/icons/pinterest.png');
+	}
+
+	&_instagram {
+		background-image: url('../img/icons/instagram.png');
+	}	
+}

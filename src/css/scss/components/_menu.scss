@@ -1,0 +1,43 @@
+.menu {	
+	&__link {
+		display: block;
+
+		&::after {
+			content: '';
+			display: table;
+			width: 0px;
+			height: 2px;
+			transition: .7s;
+		}
+
+		&:hover::after {
+			width: 100%;			
+		}
+	}
+
+	&_header {
+		font-size: $text-xs;
+
+		.menu__link {
+			padding: 1rem;
+			color: $light-black;
+
+			&::after {				
+				background-color: $black;
+			}
+		}
+	}
+
+	&_footer {
+		line-height: $line-height-xxl;
+
+		.menu__link {
+			padding: 0.5rem 0.625rem;
+			color: $dark-white;
+
+			&::after {				
+				background-color: $dark-white;
+			}
+		}
+	}
+}

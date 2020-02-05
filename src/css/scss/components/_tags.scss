@@ -1,0 +1,17 @@
+.tags {	
+	&__item {
+		padding: 0 0.625rem 0.625rem 0;
+	}	
+
+	&__link {
+		padding: 0.4375rem 0.9375rem;
+		border: 1px solid $light-gray-4;
+		font-size: $text-xs;
+		display: block;
+
+		&:hover {
+			color: $white;
+			background-color: $black;
+		}
+	}
+}

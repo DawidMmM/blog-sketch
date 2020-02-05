@@ -1,0 +1,63 @@
+/*Grid*/
+
+$grid-columns:      12;
+$grid-gutter-width: 100px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 800px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 845px,
+  lg: 1060px,
+  xl: 1240px
+);
+
+/*Colors*/
+
+$black: #000000;
+$light-black: #171717;
+$dark-black: #232323;
+$white: #ffffff;
+$dark-white: #E0E0E0;
+$gray: #666666;
+$light-gray-1: #999999;
+$light-gray-2: #E5E5E5;
+$light-gray-3: #D8D8D8;
+$light-gray-4: #EBEBEB;
+
+/*Fonts*/
+
+$font-primary: 'Fira Sans', sans-serif;
+$font-second: 'Merriweather', serif;
+$font-third: 'Open Sans', sans-serif;
+$font-fourth: 'Domine', serif;;
+
+/*Text*/
+
+$text-xs: 14px;
+$text-s: 15px;
+$text-m: 18px;
+$text-l: 23px;
+$text-xl: 25px;
+
+/*Line-height*/
+
+$line-height-xxs: 17px;
+$line-height-xs: 19px;
+$line-height-s: 21px;
+$line-height-m: 24px;
+$line-height-l: 26px;
+$line-height-xl: 29px;
+$line-height-xxl: 30px;
+$line-height-xxxl: 33px;

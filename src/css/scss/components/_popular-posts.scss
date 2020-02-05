@@ -1,0 +1,23 @@
+.popular-posts {
+	&__first-title {
+		margin: 0.9375rem 0 0.625rem;
+		line-height: $line-height-l;
+	}	
+
+	&__second-title {
+		margin: 0.9375rem 0 0.3125rem;
+		font-size: $text-s;
+		line-height: $line-height-m;
+	}	
+
+	&__text {
+		margin: 0 0 1.875rem;
+		font-size: $text-xs;
+		color: $gray;
+	}
+
+	&__author {
+		font-weight: 600;
+		color: $light-black;
+	}
+}

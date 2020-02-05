@@ -1,0 +1,20 @@
+.categories {
+	&__item {
+		margin-bottom: 1.1875rem;
+		border-bottom: 1px solid $light-gray-2;
+	}
+
+	&__link {
+		margin-bottom: 0.6875rem;
+		font-size: $text-xs;
+		color: $gray;
+
+		&:hover {
+			color: $black;
+		}
+	}
+
+	&__arrow {
+		margin-right: 0.9375rem;
+	}	
+}
