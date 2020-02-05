@@ -1,4 +1,4 @@
-# Blog Sketch
+# Blog UI Kit Template Sketch
 
 Technologies and tools I've used with this project:
 
